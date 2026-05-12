@@ -1,65 +1,61 @@
 # Cybersecurity Learning Portfolio
 
-This repository documents my journey into cybersecurity, Linux, and networking.  
-It contains my notes, hands‑on practice, daily summaries, and progress as I build the skills needed for IT Support, Help Desk, and Cybersecurity roles.
+This repository contains my notes and practice work as I learn cybersecurity, Linux, and networking.  
+I'm using this repo to stay organised, track my progress, and build consistent study habits.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-### **Linux-Notes/**
-Notes from hands‑on Linux practice and fundamentals.
-- Linux-fundamentals-part1.md  
-- linux-basics.md  
-- linux-fundamentals-part2.md  
+### Linux-Notes/
+Notes from Linux fundamentals and hands-on practice:
+- Linux-fundamentals-part1.md
+- linux-basics.md
+- linux-fundamentals-part2.md
 
-### **Cybersecurity-Notes/**
-Foundational cybersecurity concepts and learning.
-- intro-to-cybersecurity.md  
+### Cybersecurity-Notes/
+General cybersecurity concepts and beginner notes:
+- intro-to-cybersecurity.md
 
-### **Networking-Notes/**
-Networking fundamentals, tools, and protocol notes.
-- (More coming soon)
+### Networking-Notes/
+Networking notes and tools (more coming soon)
 
-### **Daily Summaries**
-Daily logs of what I studied and practiced.
-- 2026-05-10-summary.md  
-- 2026-05-12-summary.md  
-- 2026-05-13-summary.md (coming today)
+### Daily Summaries
+Short logs of what I learned each day:
+- 2026-05-10-summary.md
+- 2026-05-12-summary.md
+- More added as I go
 
 ---
 
-## 🎯 Learning Goals
+## Learning Goals
 
-- Build strong Linux fundamentals  
-- Learn networking concepts and tools  
-- Complete hands‑on labs (TryHackMe, VMs, CLI practice)  
+- Improve Linux command-line skills  
+- Build a strong foundation in networking  
+- Learn core cybersecurity concepts  
 - Prepare for TAFE Certificate IV in Cyber Security  
-- Develop a consistent study habit and track progress  
+- Document everything clearly and consistently  
 
 ---
 
-## 🛠️ Tools & Environment
+## Tools I Use
 
 - Ubuntu VM (VirtualBox)  
-- Windows 11 host  
+- Windows 11  
 - TryHackMe  
 - Visual Studio Code  
-- Git & GitHub  
-- Command Line (Bash)
+- Git and GitHub  
+- Bash  
 
 ---
 
-## 🚀 Current Focus
+## Current Focus
 
-- Linux command-line mastery  
-- Networking basics  
-- Strengthening cybersecurity fundamentals  
-- Documenting everything clearly and consistently  
+Right now I'm working through Linux fundamentals and networking basics, along with hands-on labs when I have time.
 
 ---
 
-## 📌 About This Repo
+## About This Repo
 
-This is an active, evolving portfolio.  
-I update it daily with new notes, labs, and summaries as I progress through my cybersecurity learning roadmap.
+I update this regularly as I learn new things.  
+It's mainly for my own progress, but if it helps someone else starting out, that's a bonus.
