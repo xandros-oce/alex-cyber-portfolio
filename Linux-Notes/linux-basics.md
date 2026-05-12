@@ -1,43 +1,143 @@
-What is Linux? 
+# Linux Basics
 
-    Linux is not an operating system — it is a kernel. 
+# What is Linux?
 
-    The kernel communicates with hardware (CPU, RAM, storage). 
+Linux is not an operating system itself — it is a kernel.
 
-    Linux-based OS examples: Ubuntu, Kali, Debian. 
+The kernel is the core part of the operating system that communicates directly with hardware such as:
+- CPU
+- RAM
+- storage devices
 
-    Linux is fast, secure, and used heavily in servers and cybersecurity. 
+Linux-based operating systems include:
+- Ubuntu
+- Kali Linux
+- Debian
 
-    Most hacking tools are built for Linux. 
+Linux is widely used because it is:
+- fast
+- secure
+- stable
+- highly configurable
 
-Terminal vs File Explorer 
+Linux is heavily used in:
+- servers
+- cloud infrastructure
+- cybersecurity
+- penetration testing
 
-    Terminal is text-based and faster for navigation. 
+Many cybersecurity and hacking tools are designed primarily for Linux environments.
 
-    GUI (file explorer) requires clicking through folders. 
+---
 
-    Terminal allows direct control of the system. 
+# Terminal vs GUI
 
-Basic Commands 
+## Terminal
 
-    pwd — show current directory 
+The terminal is a text-based interface used to interact directly with the operating system.
 
-    ls — list files 
+Advantages:
+- faster navigation
+- direct system control
+- efficient command execution
+- widely used in cybersecurity and server administration
 
-    ls -la — list all files + permissions 
+---
 
-    cd — change directory 
+## GUI (Graphical User Interface)
 
-    cd .. — go up one level 
+A GUI uses visual elements such as:
+- windows
+- icons
+- folders
+- buttons
 
-    cd — return to home directory 
+Examples:
+- File Explorer (Windows)
+- Ubuntu file manager
 
-Practice from the Video 
+GUI navigation usually requires clicking through folders and menus.
 
-    Navigated through folders using cd 
+---
 
-    Returned to home directory using cd .. 
+# Basic Linux Commands
 
-    Compared GUI navigation vs terminal navigation 
+## pwd
 
- 
+```bash
+pwd
+```
+
+Displays the current working directory.
+
+---
+
+## ls
+
+```bash
+ls
+```
+
+Lists files and directories inside the current location.
+
+---
+
+## ls -la
+
+```bash
+ls -la
+```
+
+Displays:
+- all files
+- hidden files
+- detailed permissions
+- ownership information
+
+---
+
+## cd
+
+```bash
+cd
+```
+
+Changes directories.
+
+Example:
+
+```bash
+cd Documents
+```
+
+Moves into the Documents directory.
+
+---
+
+## cd ..
+
+```bash
+cd ..
+```
+
+Moves up one directory level.
+
+---
+
+## cd
+
+```bash
+cd
+```
+
+Returns to the home directory.
+
+---
+
+# Practice Completed
+
+- Navigated through directories using `cd`
+- Returned to the home directory using `cd`
+- Moved between different folder locations
+- Compared terminal navigation vs GUI navigation
+- Practiced using Linux commands inside the Ubuntu terminal
