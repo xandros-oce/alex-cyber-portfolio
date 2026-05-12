@@ -1,61 +1,95 @@
 # Cybersecurity Learning Portfolio
 
-This repository contains my notes and practice work as I learn cybersecurity, Linux, and networking.  
-I'm using this repo to stay organised, track my progress, and build consistent study habits.
+This repository contains my notes, labs, and hands-on practice as I learn cybersecurity, Linux, and networking fundamentals.
+
+I'm using this repository to:
+- track my progress
+- improve technical skills
+- stay consistent with studying
+- document what I learn along the way
 
 ---
 
-## Repository Structure
+# Repository Structure
 
-### Linux-Notes/
-Notes from Linux fundamentals and hands-on practice:
-- Linux-fundamentals-part1.md
+## Linux-Notes/
+
+Notes and hands-on Linux practice:
 - linux-basics.md
+- linux-fundamentals-part1.md
 - linux-fundamentals-part2.md
+- linux-permissions-and-networking-commands.md
 
-### Cybersecurity-Notes/
-General cybersecurity concepts and beginner notes:
+---
+
+## Cybersecurity-Notes/
+
+Beginner cybersecurity concepts and role-based learning:
 - intro-to-cybersecurity.md
 
-### Networking-Notes/
-Networking notes and tools (more coming soon)
+---
 
-### Daily Summaries
-Short logs of what I learned each day:
+## Networking-Notes/
+
+Networking fundamentals and networking-related commands:
+- networking-basics.md
+
+---
+
+## Daily-Summaries/
+
+Daily summaries tracking study sessions, concepts learned, and practical work completed:
 - 2026-05-10-summary.md
+- 2026-05-11-summary.md
 - 2026-05-12-summary.md
-- More added as I go
+
+More summaries will be added as I continue learning.
 
 ---
 
-## Learning Goals
+# Current Learning Focus
 
-- Improve Linux command-line skills  
-- Build a strong foundation in networking  
-- Learn core cybersecurity concepts  
-- Prepare for TAFE Certificate IV in Cyber Security  
-- Document everything clearly and consistently  
-
----
-
-## Tools I Use
-
-- Ubuntu VM (VirtualBox)  
-- Windows 11  
-- TryHackMe  
-- Visual Studio Code  
-- Git and GitHub  
-- Bash  
+Current areas of focus include:
+- Linux fundamentals
+- Networking basics
+- Linux terminal usage
+- File and permission management
+- Basic cybersecurity concepts
+- Hands-on practice using Ubuntu and TryHackMe
 
 ---
 
-## Current Focus
+# Learning Goals
 
-Right now I'm working through Linux fundamentals and networking basics, along with hands-on labs when I have time.
+- Build strong Linux command-line skills
+- Develop networking fundamentals
+- Understand core cybersecurity concepts
+- Prepare for TAFE Certificate IV in Cyber Security
+- Build consistent study and documentation habits
+- Gain practical hands-on experience
 
 ---
 
-## About This Repo
+# Tools and Platforms
 
-I update this regularly as I learn new things.  
-It's mainly for my own progress, but if it helps someone else starting out, that's a bonus.
+- Ubuntu VM (VirtualBox)
+- Windows 11
+- TryHackMe
+- Visual Studio Code
+- Git and GitHub
+- Bash
+
+---
+
+# About This Repository
+
+This repository is primarily for documenting my learning journey and tracking my progression over time.
+
+The notes and summaries are based on:
+- hands-on practice
+- labs
+- terminal usage
+- beginner cybersecurity study
+- networking and Linux fundamentals
+
+I update this repository regularly as I continue learning and improving my technical skills.
