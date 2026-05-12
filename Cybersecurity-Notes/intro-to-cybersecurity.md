@@ -1,59 +1,89 @@
-    Offensive security – hacker's actions to find system vulnerabilities  
+# Introduction to Cybersecurity
 
-    Dirb – put in terminal to scan URLs for finding hidden pages 
+# Offensive Security
 
-    Defensive security – detection, investigation and response before damage 
+Offensive security involves identifying and exploiting vulnerabilities in systems, networks, or applications to understand how attackers operate.
 
- 
+Ethical hackers and penetration testers use offensive security techniques to help organisations improve their security posture.
 
-Security Analysts 
+---
 
-    Blue team – monitor, investigate and response to threats 
+## Example Tool: Dirb
 
-Day to day 
+```bash
+dirb
+```
 
-    Monitoring activity taking place on the devices and network of the organisation. 
+Dirb is a web content scanner used to discover hidden web pages and directories on websites.
 
-    Investigating unusual or suspicious activity, such as strange logins. 
+---
 
-    Piecing together information to understand what has happened, when, and how. 
+# Defensive Security
 
-    Working with other teams to improve the organisation's defences. 
+Defensive security focuses on:
+- detection
+- investigation
+- response
+- prevention
 
- 
+The goal is to identify and stop threats before damage occurs.
 
-Security Engineer 
+---
 
-    Build and maintain systems and processes for protection 
+# Security Analyst
 
-    responsible for maintaining an Intrusion Detection System (IDS) 
+Security Analysts are part of the Blue Team and are responsible for monitoring and responding to security threats within an organisation.
 
- 
+---
 
-Day to day 
+## Day-to-Day Responsibilities
 
-    Designing and maintaining security systems. 
+- Monitoring activity across devices and networks
+- Investigating suspicious or unusual behaviour
+- Analysing events such as strange logins or alerts
+- Piecing together information to determine what happened and how
+- Working with other teams to improve organisational security
 
-    Keeping up to date with the latest and greatest hacker techniques being used. 
+---
 
-    Documenting processes and procedures. 
+# Security Engineer
 
-    Assessing risk and making sure systems and applications are protected against vulnerabilities. 
+Security Engineers design, implement, and maintain security systems and infrastructure.
 
- 
+They help organisations build stronger defensive systems against cyber threats.
 
-Penetration Testing 
+---
 
-    Search for weaknesses and vulnerabilities and test if they can be exploited – process is called an engagement 
+## IDS (Intrusion Detection System)
 
-    Help company's understand risks and address problems 
+An IDS monitors systems and network traffic for suspicious or malicious activity.
 
- 
+---
 
-Day to day 
+## Day-to-Day Responsibilities
 
-    Testing the security of computer systems, networks, and websites. 
+- Designing and maintaining security systems
+- Monitoring new hacking techniques and threats
+- Documenting security procedures and processes
+- Assessing risks and vulnerabilities
+- Improving protection for systems and applications
 
-    Performing security assessments, audits, and analysing security policies. 
+---
 
-    Analysing the results and creating reports, advising an organisation on how to prevent the attack from occurring. 
+# Penetration Testing
+
+Penetration Testing involves identifying vulnerabilities and testing whether they can be exploited.
+
+A penetration testing project is commonly called an engagement.
+
+Penetration testers help organisations understand risks and improve their security.
+
+---
+
+## Day-to-Day Responsibilities
+
+- Testing the security of systems, networks, and websites
+- Performing security assessments and audits
+- Analysing vulnerabilities and security policies
+- Creating reports explaining findings and remediation recommendations
+- Advising organisations on how attacks can be prevented
