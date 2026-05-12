@@ -1,139 +1,290 @@
-General Observations
-Practiced commands directly in terminal
+# Linux Fundamentals Part 2
 
-Encountered and corrected errors from mistyping
+# General Observations
 
-Built confidence navigating directories and managing files
+- Practiced Linux commands directly inside the terminal
+- Encountered and corrected command mistakes during practice
+- Improved confidence navigating directories and managing files
+- Became more comfortable using the Linux terminal without relying on the GUI
 
-Core Commands Covered
-Remote Access
-ssh user@server — Connect to a remote Linux machine
+---
 
-File & Directory Navigation
-ls, ls -l, ls -a — List files (detailed, hidden)
+# File and Directory Navigation
 
-pwd — Show current directory
+## ls
 
-cd, cd .., cd ~ — Change directories
+```bash
+ls
+```
 
-mkdir directory — Create directory
+Lists files and directories.
 
-touch file — Create file or update timestamp
+---
 
-Viewing & Editing Files
-cat file — Display file contents
+## ls -l
 
-nano file — Edit file in Nano
+```bash
+ls -l
+```
 
-vim file — Edit file in Vim
+Displays detailed file information and permissions.
 
-less file — View file one page at a time
+---
 
-head file — First lines
+## ls -a
 
-tail file — Last lines
+```bash
+ls -a
+```
 
-File Management
-cp file dest — Copy
+Displays hidden files and directories.
 
-mv file dest — Move or rename
+---
 
-rm file, rm -r dir — Remove files/directories
+## pwd
 
-ln -s file link — Create symbolic link
+```bash
+pwd
+```
 
-shred file — Securely overwrite file
+Displays the current working directory.
 
-User & Permission Management
-whoami — Show current user
+---
 
-sudo command — Run as superuser
+## cd
 
-su user — Switch user
+```bash
+cd
+```
 
-adduser user — Add new user
+Changes directories.
 
-passwd user — Change password
+Examples:
 
-chmod +x file — Change permissions
+```bash
+cd ..
+```
 
-chown user file — Change file owner
+Moves up one directory level.
 
-Package Management (APT)
-sudo apt update — Update package lists
+```bash
+cd ~
+```
 
-sudo apt install package — Install package
+Returns to the home directory.
 
-System Information
-uname, uname -a — System info
+---
 
-neofetch — System info with visuals
+# Creating Files and Directories
 
-free — Memory usage
+## mkdir
 
-df -h — Disk usage
+```bash
+mkdir directory
+```
 
-ps aux — Running processes
+Creates a new directory.
 
-top, htop — Process monitor
+---
 
-Networking Commands
-ifconfig — Network interfaces
+## touch
 
-ip address — IP info
+```bash
+touch file.txt
+```
 
-ping host — Test connectivity
+Creates a new file or updates a file timestamp.
 
-traceroute host — Trace route
+---
 
-netstat, netstat -tulpen — Network connections
+# Viewing and Editing Files
 
-ss -tulpen — Socket stats
+## cat
 
-ufw allow/enable/status — Firewall management
+```bash
+cat file.txt
+```
 
-cat /etc/resolv.conf — DNS info
+Displays file contents.
 
-resolvectl status — DNS resolver
+---
 
-Utilities
-wget URL — Download file
+## nano
 
-curl URL > file — Transfer data
+```bash
+nano file.txt
+```
 
-zip file.zip file — Compress
+Opens a file in the Nano text editor.
 
-unzip file.zip — Extract
+---
 
-sort file — Sort lines
+## vim
 
-cmp file1 file2 — Compare files
+```bash
+vim file.txt
+```
 
-diff file1 file2 — Show differences
+Opens a file in the Vim text editor.
 
-clear — Clear terminal
+---
 
-cal — Calendar
+# File Management
 
-bc — Calculator
+## cp
 
-Terminal History (Practice Log)
-A full log of commands executed during practice, including:
+```bash
+cp file.txt destination
+```
 
-File creation, editing, moving, deleting
+Copies files.
 
-Directory navigation
+---
 
-User creation and switching
+## mv
 
-Permissions and ownership
+```bash
+mv file.txt destination
+```
 
-Networking commands
+Moves or renames files.
 
-System monitoring
+---
 
-Package installation
+## rm
 
-Firewall configuration
+```bash
+rm file.txt
+```
 
-This history shows real hands‑on learning and troubleshooting.
+Removes files.
+
+---
+
+## rm -r
+
+```bash
+rm -r directory
+```
+
+Removes directories recursively.
+
+---
+
+## ln -s
+
+```bash
+ln -s file link
+```
+
+Creates a symbolic link.
+
+---
+
+## shred
+
+```bash
+shred file.txt
+```
+
+Securely overwrites a file before deletion.
+
+---
+
+# User and Permission Management
+
+## whoami
+
+```bash
+whoami
+```
+
+Displays the current logged-in user.
+
+---
+
+## sudo
+
+```bash
+sudo command
+```
+
+Runs a command with superuser privileges.
+
+---
+
+## adduser
+
+```bash
+sudo adduser username
+```
+
+Creates a new user.
+
+---
+
+## passwd
+
+```bash
+sudo passwd username
+```
+
+Changes a user password.
+
+---
+
+## chmod
+
+```bash
+chmod +x file
+```
+
+Changes file permissions.
+
+---
+
+# Networking Commands
+
+## ip a
+
+```bash
+ip a
+```
+
+Displays network interface and IP address information.
+
+---
+
+## ping
+
+```bash
+ping google.com
+```
+
+Tests network connectivity and DNS resolution.
+
+---
+
+## traceroute
+
+```bash
+traceroute google.com
+```
+
+Displays the path packets take across networks.
+
+---
+
+# Terminal Practice Summary
+
+Practiced:
+- file creation
+- file editing
+- directory navigation
+- file movement
+- permissions
+- networking commands
+- user management
+- troubleshooting terminal errors
+
+This practice improved overall confidence using the Linux terminal and understanding Linux system navigation.
