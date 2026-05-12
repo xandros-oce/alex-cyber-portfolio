@@ -1,93 +1,176 @@
-Terminal 
+# Linux Fundamentals Part 1
 
-Terminal is purely text based using commands 
+# Terminal
 
- 
+The Linux terminal is a text-based interface that allows users to interact directly with the operating system using commands.
 
-Command 
-	
+The terminal is heavily used in:
+- Linux administration
+- cybersecurity
+- cloud computing
+- server management
 
-Full Name 
+---
 
-Echo 
-	
+# Common Linux Commands
 
-Output any text that we provide 
+## echo
 
- 
+```bash
+echo Hello
+```
 
-whoami 
-	
+Outputs text provided by the user.
 
-Find out what user we're currently logged in as! 
+---
 
-ls 
-	
+## whoami
 
-listing 
+```bash
+whoami
+```
 
-cd 
-	
+Displays the current logged-in user.
 
-Change directory 
+---
 
-cat 
-	
+## ls
 
-Concatenate – contents of a file 
+```bash
+ls
+```
 
-pwd 
-	
+Lists files and directories inside the current directory.
 
-Print working directory 
+---
 
-find 
-	
+## cd
 
-To search for file/folder directory 
+```bash
+cd
+```
 
-grep 
-	
+Changes directories.
 
-allows us to search the contents of files for specific values that we are looking for 
+Example:
 
- 
+```bash
+cd Documents
+```
 
-Searching Recursively with grep 
+Moves into the Documents directory.
 
-Sometimes, the information we are looking for is spread across multiple files inside a directory. Instead of checking each file individually, we can tell grep to search recursively through all files and subdirectories. 
+---
 
-    -R (recursive) 
+## cat
 
- 
+```bash
+cat file.txt
+```
 
-Shell Operators 
+Displays the contents of a file.
 
- 
+`cat` stands for:
+Concatenate.
 
-Symbol / Operator 
-	
+---
 
-Description 
+## pwd
 
-& 
-	
+```bash
+pwd
+```
 
-This operator allows you to run commands in the background of your terminal. 
+Displays the current working directory.
 
-&& 
-	
+`pwd` stands for:
+Print Working Directory.
 
-This operator allows you to combine multiple commands together in one line of your terminal. 
+---
 
-> 
-	
+## find
 
-This operator is a redirector - meaning that we can take the output from a command (such as using cat to output a file) and direct it elsewhere. 
+```bash
+find ~/alex-training -name "*.txt"
+```
 
->> 
-	
+Searches for files and directories.
 
-This operator does the same function of the > operator but appends the output rather than replacing (meaning nothing is overwritten). 
+Example:
+Searches recursively for all `.txt` files inside the `alex-training` directory.
 
- 
+---
+
+## grep
+
+```bash
+grep "text" file.txt
+```
+
+Searches the contents of files for specific text or values.
+
+---
+
+# Recursive Searching with grep
+
+Sometimes the information being searched for exists across multiple files and directories.
+
+The `-R` option allows grep to search recursively through all files and subdirectories.
+
+Example:
+
+```bash
+grep -R "password" .
+```
+
+Searches recursively inside the current directory.
+
+---
+
+# Shell Operators
+
+Shell operators allow commands to be combined, redirected, or executed differently inside the terminal.
+
+---
+
+## &
+
+```bash
+command &
+```
+
+Runs a command in the background.
+
+---
+
+## &&
+
+```bash
+command1 && command2
+```
+
+Combines multiple commands together on one line.
+
+The second command only runs if the first command succeeds.
+
+---
+
+## >
+
+```bash
+command > file.txt
+```
+
+Redirects output into a file.
+
+If the file already exists, its contents are overwritten.
+
+---
+
+## >>
+
+```bash
+command >> file.txt
+```
+
+Appends output to a file instead of overwriting existing contents.
