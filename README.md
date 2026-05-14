@@ -1,12 +1,14 @@
 # Cybersecurity Learning Portfolio
 
-This repository contains my notes, labs, and hands-on practice as I learn cybersecurity, Linux, and networking fundamentals.
+This repository contains my notes, labs, and hands-on practice as I learn cybersecurity, Linux, networking, and system administration fundamentals.
 
-I'm using this repository to:
-- track my progress
-- improve technical skills
-- stay consistent with studying
-- document what I learn along the way
+I use this repository to:
+
+* document my learning progression
+* build technical and troubleshooting skills
+* stay consistent with hands-on practice
+* improve technical documentation habits
+* track practical experience over time
 
 ---
 
@@ -14,82 +16,123 @@ I'm using this repository to:
 
 ## Linux-Notes/
 
-Notes and hands-on Linux practice:
-- linux-basics.md
-- linux-fundamentals-part1.md
-- linux-fundamentals-part2.md
-- linux-permissions-and-networking-commands.md
+Linux fundamentals, command-line practice, process monitoring, permissions, and system administration concepts.
+
+Topics include:
+
+* Linux commands
+* file and directory management
+* permissions
+* process monitoring
+* networking commands
+* troubleshooting
 
 ---
 
-## Cybersecurity-Notes/
+## Windows-Notes/
 
-Beginner cybersecurity concepts and role-based learning:
-- intro-to-cybersecurity.md
+Windows fundamentals, networking tools, system monitoring, and user management concepts.
+
+Topics include:
+
+* Task Manager
+* Services
+* Resource Monitor
+* NTFS permissions
+* local users and groups
+* Windows networking tools
 
 ---
 
 ## Networking-Notes/
 
-Networking fundamentals and networking-related commands:
-- networking-basics.md
+Networking fundamentals, protocols, ports, active connections, and network monitoring.
+
+Topics include:
+
+* TCP vs UDP
+* IP addresses
+* ports and protocols
+* network monitoring
+* process-to-port relationships
+* Linux and Windows networking tools
+
+---
+
+## Cybersecurity-Notes/
+
+Beginner cybersecurity concepts and security-focused learning.
+
+Topics include:
+
+* introductory cybersecurity concepts
+* SOC-related concepts
+* process and service investigation
+* security monitoring fundamentals
 
 ---
 
 ## Daily-Summaries/
 
-Daily summaries tracking study sessions, concepts learned, and practical work completed:
-- 2026-05-10-summary.md
-- 2026-05-11-summary.md
-- 2026-05-12-summary.md
+Daily study summaries documenting:
 
-More summaries will be added as I continue learning.
+* concepts learned
+* hands-on labs
+* commands practiced
+* troubleshooting performed
+* overall learning progression
 
 ---
 
 # Current Learning Focus
 
-Current areas of focus include:
-- Linux fundamentals
-- Networking basics
-- Linux terminal usage
-- File and permission management
-- Basic cybersecurity concepts
-- Hands-on practice using Ubuntu and TryHackMe
+Current areas of focus:
+
+* Linux fundamentals
+* Windows fundamentals
+* networking fundamentals
+* process and system monitoring
+* command-line usage
+* cybersecurity foundations
+* hands-on troubleshooting
+* TryHackMe labs
 
 ---
 
 # Learning Goals
 
-- Build strong Linux command-line skills
-- Develop networking fundamentals
-- Understand core cybersecurity concepts
-- Prepare for TAFE Certificate IV in Cyber Security
-- Build consistent study and documentation habits
-- Gain practical hands-on experience
+* Build strong Linux and Windows troubleshooting skills
+* Develop networking and system administration knowledge
+* Strengthen cybersecurity fundamentals
+* Gain practical hands-on IT experience
+* Prepare for TAFE Certificate IV in Cyber Security
+* Continue building technical documentation and portfolio projects
 
 ---
 
 # Tools and Platforms
 
-- Ubuntu VM (VirtualBox)
-- Windows 11
-- TryHackMe
-- Visual Studio Code
-- Git and GitHub
-- Bash
+* Ubuntu VM (VirtualBox)
+* Windows 11
+* TryHackMe
+* Visual Studio Code
+* Git and GitHub
+* Bash
 
 ---
 
 # About This Repository
 
-This repository is primarily for documenting my learning journey and tracking my progression over time.
+This repository primarily documents my progression while transitioning further into IT and cybersecurity-focused learning.
 
-The notes and summaries are based on:
-- hands-on practice
-- labs
-- terminal usage
-- beginner cybersecurity study
-- networking and Linux fundamentals
+The content is based on:
 
-I update this repository regularly as I continue learning and improving my technical skills.
+* hands-on practice
+* home lab work
+* Linux and Windows administration practice
+* networking exercises
+* cybersecurity learning
+* practical troubleshooting
+* TryHackMe labs
+
+I continue updating this repository as I learn new concepts, complete labs, and improve my technical skills.
